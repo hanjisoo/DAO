@@ -12,7 +12,7 @@ import com.javaex.vo.AuthorVo;
 
 public class AuthorDao {
 	
-	public int insert(AuthorVo authorVo) {//클래스불르고 별명지음
+	public int insert(AuthorVo authorVo) {//클래스부르고 별명지음
 		int count=-1;//insert실패하면 -1줘
 		String name=authorVo.getAuthorName();//작가명
 		String desc=authorVo.getAuthorDesc();//작가정보
